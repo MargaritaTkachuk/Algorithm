@@ -1,0 +1,14 @@
+𝑓(𝑛) = 3𝑛^2 − 𝑛 + 4
+𝑔(𝑛) = 𝑛 log 𝑛 + 5
+f(n) + g(n) = h
+h(n) = 3n^2 + n log n + 9
+
+h = O(n^2) <-> Exists C > 0, Exists n0 > 0, Forall n >= n0: h(n) <= C n^2
+C = 4:
+3n^2 + n log n + 9 <= 4n^2
+n^2 - n log n - 9 >= 0
+2n - log n - 1 > 0 - increasing
+n0 = e^2:
+e^4 - 2e^2 - 9 > 0
+
+-> C = 4, n0 = e^2, n >= n0: 3n^2 + n log n + 9 <= 4n^2
